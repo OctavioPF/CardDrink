@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/playersFragment">
+
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.octaviopf.carddrink.ui.card.CardFragment"
+        android:label="fragment_card"
+        tools:layout="@layout/fragment_card" />
+    <fragment
+        android:id="@+id/playersFragment"
+        android:name="com.octaviopf.carddrink.ui.players.PlayersFragment"
+        android:label="fragment_players"
+        tools:layout="@layout/fragment_players" />
+    <fragment
+        android:id="@+id/modeFragment"
+        android:name="com.octaviopf.carddrink.ui.mode.ModeFragment"
+        android:label="fragment_mode"
+        tools:layout="@layout/fragment_mode" />
+</navigation>

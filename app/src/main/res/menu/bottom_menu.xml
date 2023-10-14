@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/playersFragment"
+        android:title="Jugadores"
+        android:icon="@drawable/ic_player"/>
+    <item
+        android:id="@+id/modeFragment"
+        android:title="Modo"
+        android:icon="@drawable/ic_mode0"/>
+
+    <item
+        android:id="@+id/cardFragment"
+        android:title="Cartas"
+        android:icon="@drawable/ic_card"/>
+
+
+</menu>
