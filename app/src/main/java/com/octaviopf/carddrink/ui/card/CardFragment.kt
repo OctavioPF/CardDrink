@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import com.octaviopf.carddrink.R
 import com.octaviopf.carddrink.databinding.FragmentCardBinding
 import com.octaviopf.carddrink.databinding.FragmentPlayersBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class CardFragment : Fragment() {
 
     private var _binding: FragmentCardBinding? = null
