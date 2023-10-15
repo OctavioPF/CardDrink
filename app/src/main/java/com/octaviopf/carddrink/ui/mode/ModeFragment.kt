@@ -39,12 +39,6 @@ class ModeFragment : Fragment() {
 
     private fun initList(){
         modeAdapter = ModeAdapter()
-        binding.rvMode.layoutManager = LinearLayoutManager(context)
-        binding.rvMode.apply {
-            layoutManager = LinearLayoutManager(context)
-            adapter = adapter
-
-        }
     }
     private fun initIUState(){
         lifecycleScope.launch {

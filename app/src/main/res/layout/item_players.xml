@@ -8,28 +8,28 @@
     android:layout_height="wrap_content">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/Linear_players"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editTextName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Ingrese un nombre" />
-
         <Button
-            android:id="@+id/buttonAdd"
+            android:id="@+id/playersButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Agregar" />
-
-        <ListView
-            android:id="@+id/listViewNames"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:text="Jugador"
+            android:textColor="#D81616"
+            android:textSize="18sp"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            />
 
     </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
